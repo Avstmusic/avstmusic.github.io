@@ -1,0 +1,295 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+a{
+  color: white;
+}
+a:hover{
+  color: #5252C9;
+  transition: .2s;
+}
+
+
+
+
+
+
+.Welcome{
+  background-image: url("assets/homebg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.music{
+  background-image: url("assets/musicbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.products{
+  background-image: url("assets/productbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact{
+  background-image: url("assets/contactbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vitalpb{
+  background-image: url("assets/VPBG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fbv1b{
+  background-image: url("assets/AVSTFBV1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  background-image: url("assets/navbarbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+}
+
+.navlinks{
+  right: 0px;
+  margin: 10px;
+  position: absolute;
+}
+
+.navbar ul{
+  display: inline-flex;
+  padding: 30px;
+  font-family: Roboto;
+}
+
+.navbar li{
+  padding-left: 20px;
+  padding-right:20px;
+}
+
+.navbar-icons a{
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 32px;
+}
+
+.navbar-icons ul{
+  display: inline-flex;
+  padding: 30px;
+  font-family: Roboto;
+}
+
+.navlinks a{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.navlinks a:hover{
+  border-radius: 10px;
+  transition: .2s;
+}
+
+
+
+.welcome-content{
+  color: white;
+  font-family: Roboto;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  padding-left: 20%;
+  padding-right: 20%;
+  justify-content: center;
+  text-align: center;
+}
+
+.welcome-content h1{
+  font-size: 100px;
+}
+
+.welcome-content h2{
+  font-size: 40px;
+}
+
+.active{
+  color: white;
+  background-color: black;
+}
+
+
+
+.social-icons{
+  display: inline-flex;
+  padding: 30px;
+}
+
+.social-icons li{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+.home{
+  font-family: Roboto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.home a{
+  color: #5252C9;
+  text-decoration: none;
+}
+
+.home a:hover{
+  color: #3599db;
+}
+
+.flex-child{
+  flex: 1;
+}
+
+.homephoto{
+  background-image: url("assets/me.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.footer{
+  color: white;
+  font-family: Roboto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  background-color: #151f33;
+}
+
+.play{
+  padding-top: 80px;
+}
+
+.track-1{
+  background-image: url("assets/depths cover.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 200px;
+  color: white;
+  justify-content: center;
+}
+
+.track-2{
+  background-image: url("assets/ELEvatECOVER.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: white;
+}
+
+.track-3{
+  background-image: url("assets/JLT.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 200px;
+  color: white;
+}
+
+.track-4{
+  background-image: url("assets/Endings.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: white;
+}
+
+.track-5{
+  background-image: url("assets/ICBREAKER COVER.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 200px;
+  color: white;
+}
+
+.track-6{
+  background-image: url("assets/Light tunnel.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: white;
+}
+
+.track-7{
+  background-image: url("assets/flyaway.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 200px;
+  color: white;
+}
+
+.track-8{
+  background-image: url("assets/frostbyte.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: white;
+}
+
+.vpp{
+  background-image: url("assets/VPPPR.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 200px;
+}
+
+.vppph{
+  background-image: url("assets/VPPPR.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.fbv1{
+  background-image: url("assets/AVSTFBV1R.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 200px;
+}
+
+.fbv1ph{
+  background-image: url("assets/AVSTFBV1R.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
