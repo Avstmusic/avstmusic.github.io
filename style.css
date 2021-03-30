@@ -264,6 +264,16 @@ a:hover{
   color: white;
 }
 
+.ihykrmx{
+  background-image: url("assets/IHYKCOVER.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: white;
+}
+
+
+
 .vpp{
   background-image: url("assets/VPPPR.png");
   background-repeat: no-repeat;
